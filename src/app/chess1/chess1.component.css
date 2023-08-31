@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 49vw;
+}
+
+.recuadro{
+    height: 88vh;
+    width: 88vh;
+    border: 1px solid black;
+}
+
+.cuadrito{
+    width: 12.5%;
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.filas {
+    width: 100%;
+    height: 12.5%;
+    border: 1px solid black;
+    display: flex;
+}
+
+.black{
+    background-color: black;
+    color: white;
+}

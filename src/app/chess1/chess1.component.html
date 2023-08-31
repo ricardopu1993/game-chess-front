@@ -1,0 +1,10 @@
+<div class="container">
+    <div class="recuadro">
+        <div *ngFor="let fila of numbers" class="filas">
+            <div [ngClass]="{black: (fila % 2 != 0) && (letra.id % 2 != 0) || 
+                (fila % 2 == 0) && (letra.id % 2 == 0)}" *ngFor="let letra of letters" class="cuadrito">
+                {{letra.text}}{{fila}}
+            </div>
+        </div>
+    </div>
+</div>
